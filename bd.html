@@ -1,15 +1,10 @@
-<cd>
-<path>
-<to>
-<your>
-<project></project> 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Медвежонок❤️</title>
+    <title>ХЭХЭХЭХЭ</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
@@ -186,63 +181,36 @@
             <div class="step active" id="step1">
                 <div class="emoji heart-beat">❤️</div>
                 <h1 class="text-4xl md:text-5xl font-bold mb-6 text-gradient">꒰ᐢ. .ᐢ꒱₊˚⊹</h1>
-                <p class="text-xl text-gray-700 mb-8">Для моего любимого мальчика...</p>
+                <p class="text-xl text-gray-700 mb-8">эт тебе женщина</p>
                 <button class="btn" id="start-btn">Нажимай сюда</button>
             </div>
 
             <!-- Step 2: Birthday Message -->
             <div class="step" id="step2">
                 <div class="emoji">🎉</div>
-                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gradient">Поздравляю</h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gradient">кароче</h2>
                 <p class="text-lg text-gray-700 mb-6">
-                Желаю тебе много-много счастья и удачи, чтобы все твои желания сбывались, и ты был успешным. Ты для меня очень дорог, поэтому я надеюсь
-              радовать и поддерживать тебя ещё долгие годы. Знай что ты — особенный.
+                я сделала это 
             
                 </p>
-                <button class="btn" id="next-btn-2">А знаешь почему?</button>
+                <button class="btn" id="next-btn-2">ура ура </button>
             </div>
 
-            <!-- Step 3: Reasons You're Amazing -->
+            
+
+
+            <!-- Step 3: Final Wish -->
             <div class="step" id="step3">
-                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-gradient">Давай расскажу</h2>
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-8">
-                    <div class="reason-card">
-                        <div class="emoji text-3xl">✨</div>
-                        <h3 class="text-xl font-bold mb-2 text-pink-600">Твоё присутствие</h3>
-                        <p class="text-gray-700">Когда тебя нет рядом  — в классе или просто поблизости, атмосфера кажется какой-то чужой.
-                     С тобой всегда веселее и уютнее.
-                    </p>
-                    </div>
-                    <div class="reason-card">
-                        <div class="emoji text-3xl">😊</div>
-                        <h3 class="text-xl font-bold mb-2 text-pink-600">Твои глаза</h3>
-                        <p class="text-gray-700">Я просто обожаю их... Цвет  — который не только красивый, но и идеально подходящий тебе. Если бы не смущалась, то могла бы смотреть
-                            на них весь день...
-                        </p>
-                    </div>
-                    <div class="reason-card">
-                        <div class="emoji text-3xl">🌟</div>
-                        <h3 class="text-xl font-bold mb-2 text-pink-600">Твоё отношение к другим</h3>
-                        <p class="text-gray-700">К тем, которыми дорожишь, относишься с добротой и уважением. Мне это очень нрвится.</p>
-                    </div>
-                </div>
-                <button class="btn" id="next-btn-3">И на конец</button>
-            </div>
-
-
-            <!-- Step 4: Final Wish -->
-            <div class="step" id="step4">
                 <div class="emoji">🎂</div>
-                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gradient">Я тебя люблю </h2>
+                <h2 class="text-3xl md:text-4xl font-bold mb-6 text-gradient">измучалась блин</h2>
                 <p class="text-lg text-gray-700 mb-8">
-                   Я тебя люблю таким, какой ты есть, и буду так же любить всегда. Буду выбирать тебя, что бы ни случилось, и надеюсь, ты тоже будешь выбирать меня.
-                 А ещё  —  я всегда буду таоей самой большой поддержкой.
+                  думаю тебе стоит меня поздравить
                 </p>
                 <p class="text-xl font-semibold text-pink-600 mb-8">
-                    С днём рождения, любимый!!! ❤️
+                  ляляля
                 </p>
-                <button class="btn" id="confetti-btn">нажми для конфети </button>
-                <p class="mt-8 text-gray-500">Надеюсь тебе понравится</p>
+                <button class="btn" id="confetti-btn">поздравь сука </button>
+                <p class="mt-8 text-gray-500">я спать</p>
             </div>
         </div>
     </div>
@@ -366,7 +334,7 @@
 
         // Step Navigation
         let currentStep = 1;
-        const totalSteps = 4;
+        const totalSteps = 3;
 
         function updateProgressBar() {
             const progress = ((currentStep - 1) / (totalSteps - 1)) * 100;
@@ -402,10 +370,7 @@
             showStep(currentStep);
         });
 
-        document.getElementById('next-btn-3').addEventListener('click', () => {
-            currentStep = 4;
-            showStep(currentStep);
-        });
+    
 
     
 
